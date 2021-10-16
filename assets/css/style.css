@@ -124,3 +124,11 @@ p {
     padding-left:75px;
     padding-right:75px;
 }
+
+h4 { color:white;
+    background-color: rgba(173, 216, 230);
+    font-family:'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.guide {padding: 40px;}
