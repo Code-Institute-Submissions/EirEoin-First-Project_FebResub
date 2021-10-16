@@ -104,7 +104,23 @@ h1 h2 {
 }
 
 #techniques { 
+    color:#3a3a3a;
     text-align: center;
-    font-size: 200%; 
+    font-size: 175%; 
     font-family: 'Scheherazade New', serif;
+    padding-top:35px;
+}
+
+#techniques-list {
+    color:#3a3a3a;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding:50px;
+}
+
+p {
+    color:#3a3a3a;
+    font-size:80%;
+    padding-left:75px;
+    padding-right:75px;
 }
