@@ -1,6 +1,7 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Scheherazade+New&display=swap');
+
 
 
 * { margin:0;
@@ -12,3 +13,24 @@ body { font-family: 'Scheherazade New', serif;
     font-weight:300;
 }
 
+h1, h2 { font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+letter-spacing:4px;
+color: 252526px;}
+
+#menu { float: right;
+list-style-type: none;
+margin: right;}
+
+#menu a { text-decoration:none;
+color:inherant;
+}
+
+#menu, #logo { line-height:75px;}
+
+#menu a:hover { border-bottom:1px solid #3a3a3a}
+
+.active {border-bottom: 1px solid #3a3a3a}
+
+#logo {float: left;
+font-size:280%;}
