@@ -4,49 +4,82 @@
 
 
 
-* { margin:0;
-padding:0;
-border: none; }
+* { 
+    margin:0;
+    padding:0;
+    border: none; }
 
-body { font-family: 'Scheherazade New', serif;
+body { 
+    font-family: 'Scheherazade New', serif;
     font: color #3a3a3a;
     font-weight:300;
 }
 
-h1, h2 { font-family: 'Roboto', sans-serif;
-text-transform: uppercase;
-letter-spacing:4px;
-color: 252526px;}
-
-#menu { float: right;
-list-style-type: none;
-margin: right;}
-
-#menu a { text-decoration:none;
-color:inherant;
+h1 h2 { 
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    color: 252526px;
 }
 
-#menu, #logo { line-height:75px;}
+#menu { 
+    font-size:110%;
+    letter-spacing: 4px;
+}
 
-#menu a:hover { border-bottom:1px solid #3a3a3a}
+#menu li { 
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
 
-.active {border-bottom: 1px solid #3a3a3a}
+#menu a { 
+    text-decoration:none;
+    color:inherant;
+}
 
-#logo {float: left;
-font-size:280%;}
+#menu, #logo { 
+    line-height:75px;
+}
+
+#menu a:hover { 
+    border-bottom:1px solid #3a3a3a
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a
+}
+
+#logo {
+    float: left;
+    font-size:280%;
+}
 
 #hero-image {
     height:600px;
     width: 100%;
     background: url('../css/images/Hero-project-image.jpeg');
+    overflow: hidden;
+    position:relative;
 }
 
-#cover-text h2 {color:#fff}
+#cover-text  {
+    color:#fff
+}
 
 #cover-text{
     font-size:130%;
     font-family:'Roboto', sans-serif;
+    text-transform:uppercase;
     letter-spacing: 4px;
     width: 300px;
     height: 200px;
+
+    padding-top:40px;
+    padding-left:10px;
+    background-color: rgba(173, 216, 230, .7);
+    
+    bottom: 30px;
+    right:150px;
+    position: absolute;
 }
