@@ -132,3 +132,21 @@ h4 { color:white;
 }
 
 .guide {padding: 40px;}
+
+#sign { 
+    text-align: center;
+    background-color: rgba(173, 216, 230);
+    font-size: 150%;
+    padding:50px;
+}
+
+#button {
+    text-transform:uppercase;
+    border-radius: 40px;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+#button:hover { 
+    background:rgba(173, 216, 230)
+}

@@ -8,6 +8,8 @@
     <meta name="key-words" content="Meditation, Mindfulness, Calm, Relax, learning">
   
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Daily Meditation</title>
 </head>
 <body>
@@ -65,20 +67,25 @@
         <img src="assets/css/images/6-step-breath-meditation.png" alt="6 Step guided Meditation" class="guide">
 
     </section>
+    <fieldset>
     <section id="sign"> 
         <form action="" method="POST">
             <div>
-            <label for="name-field">Name</label>
-            <input id="name-field" type="text" name="full_name" placeholder="Your name">
+            <label for="name-field" >Name</label>
+            <input id="name-field" required type="text" name="full_name" placeholder="Your name">
         </div>
             <div>
-            <label for="email">Email </label>
-            <input id="email-field" type="email" placeholder="Your email">
+            <label for="email"  >Email </label>
+            <input id="email-field" type="email" required placeholder="Your email">
             </div>
             
-            <input type="submit" value="Join our club">
+            <input id="button" type="submit" value="Join our club">
         </form>
 
     </section>
+</fieldset>
 </body>
+<footer>
+    
+</footer>
 </html>
