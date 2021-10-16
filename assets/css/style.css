@@ -1,2 +1,14 @@
-body { font-family: Arial, Helvetica, sans-serif; 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+</style>
+
+
+* { margin:0;
+padding:0;
+border: none; }
+
+body { font-family: 'Scheherazade New', serif;
+    font: color #3a3a3a;
+    font-weight:300;
 }
+
