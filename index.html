@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A cool, calm place to learn how to meditate Daily">
     <meta name="key-words" content="Meditation, Mindfulness, Calm, Relax, learning">
-    <meta img src= (../css/images/Hero-project-image.jpeg) class="img-responsive" alt="Responsive image">
-    <meta img src= (../css/images/6-step-breath-meditation.png) class="img-responsive" alt="Responsive image">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   
@@ -18,10 +16,11 @@
 </head>
 <body>
     <header>
-       <a href="index.html" class="active">
+        <nav>
+       <a href="index.html">
            <h1 id="logo"> The Meditation Club</h1>
     </a>
-    <nav>
+    
         <ul id="menu"> 
             <li><a href="#sign">Sign Up</a></li>
             <li><a href="#techniques">Techniques</a></li>
@@ -47,7 +46,7 @@
 
     </section>
     <section id="techniques">
-         <h2 id="techniques">Meditation Techniques</h2>
+         <h2>Meditation Techniques</h2>
          <br>
          <br>
          <p>
@@ -70,19 +69,19 @@
         <h4>Here is just a small example of what we send our club members.
             After signing up you will also receive guided videos, motivational quotes, links to free zoom classes and our slack groups.
         </h4>
-        <img src="assets/css/images/6-step-breath-meditation.png" alt="6 Step guided Meditation" class="guide">
+        <img src="assets/images/6-step-breath-meditation.png" alt="6 Step guided Meditation" class="guide">
 
     </section>
     <fieldset>
     <section id="sign"> 
-        <form action="" method="POST">
+        <form method="POST">
             <div>
-            <label for="name-field" >Name</label>
+            <label for="name-field">Name</label>
             <input id="name-field" required type="text" name="full_name" placeholder="Your name">
         </div>
             <div>
-            <label for="email"  >Email </label>
-            <input id="email-field" type="email" required placeholder="Your email">
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="Your email">
             </div>
             
             <input id="button" type="submit" value="Join our club">
@@ -91,9 +90,8 @@
     </section>
 
 </fieldset>
-</body>
 
-    <footer>
+<footer>
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -108,8 +106,9 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
-    </footer>
+</footer>
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    
+
+</body>
 </html>
